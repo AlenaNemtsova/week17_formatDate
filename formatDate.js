@@ -1,7 +1,6 @@
-const now = Date.now();
-// console.log(now); //таймстемп текущего времени
-
 function formatDate(date) {
+    const now = Date.now();
+    // console.log(now); //таймстемп текущего времени
 
     if (now - date < 1000) { //если разница таймстемпов меньше 1 секунды
         return "прямо сейчас";
